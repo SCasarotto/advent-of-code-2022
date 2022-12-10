@@ -22,6 +22,8 @@ fn main() {
     totals.sort_by(|a, b| b.cmp(a));
     // print first element
     println!("Part 1: {}", totals[0]);
+    // 67658
     // print sum of first 3 elements
     println!("Part 2: {}", &totals[0..3].iter().sum::<i32>());
+    // 200158
 }
